@@ -1,0 +1,12 @@
+! tarnkappe.info ohne Werbung und bezahlte Artikel
+tarnkappe.info##.around-aiCheXu1.around-desktop-ad
+tarnkappe.info##.hide-tablet.navbar-item > .buttons
+tarnkappe.info###author > .card-content > .content > .buttons
+tarnkappe.info##.sidebar-sticky.column
+tarnkappe.info##.columns.is-multiline > .column:has(> article.category-werbung)
+tarnkappe.info##.columns.is-multiline > .column:has(> .card.banner-post)
+tarnkappe.info##.column.is-full:has(.tarnads_general)
+! tarnkappe.info##.columns.is-multiline > .column:has(.card-content a:has-text(im test))
+tarnkappe.info##div[id^="google_vignette"]
+tarnkappe.info##+js(aopr, googletag)
+web.archive.org##div:has-text(Kein Bock auf Werbung
