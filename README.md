@@ -23,12 +23,6 @@ Den Codeblock unten kopieren, im uBlock-Origin-Dashboard (Zahnrad-Symbol → Rei
 | `+js(aopr, googletag)`                                                   | Blockiert das Laden des Google-Ad-Manager-Skripts (googletag) auf JavaScript-Ebene.                             |
 | `div:has-text(Kein Bock auf Werbung)`                                    | Blendet den Adblock-Hinweis auf Archivseiten (web.archive.org) aus.                                             |
 
->[!NOTE]
->Mit den Filterregeln werden übrigens auch Artikel ausgeblendet, die tarnkappe.info als Test kennzeichnet. Diese Regel habe ich separat angelegt wer sie nicht möchte, löscht einfach die entsprechende Zeile oder kommentiert sie mit einem vorangestellten ! aus.
->Das gilt grundsätzlich für jede Regel. Falls nach dem Aktivieren einzelne Seitenteile fehlen, einfach die betroffene Zeile im Filter-Editor löschen (oder mit ! deaktivieren) und auf „Anwenden" klicken. So findet ihr Schritt für Schritt heraus, welche Regel zu aggressiv greift.
-
-Wer die Seite trotzdem mag, kann ja immer noch spenden. Aber wenn man als normaler Nutzer vor lauter Anzeigen nicht mehr lesen kann, ist der Sinn wohl verfehlt.
-
 ## uBlock-Regeln
 
 ```card
@@ -51,3 +45,9 @@ tarnkappe.info##div[id^="google_vignette"]
 tarnkappe.info##+js(aopr, googletag)
 web.archive.org##div:has-text(Kein Bock auf Werbung)
 ```
+
+>[!NOTE]
+>Mit den Filterregeln werden übrigens auch Artikel ausgeblendet, die tarnkappe.info als Test kennzeichnet. Diese Regel habe ich separat angelegt wer sie nicht möchte, löscht einfach die entsprechende Zeile oder kommentiert sie mit einem vorangestellten ! aus.
+>Das gilt grundsätzlich für jede Regel. Falls nach dem Aktivieren einzelne Seitenteile fehlen, einfach die betroffene Zeile im Filter-Editor löschen (oder mit ! deaktivieren) und auf „Anwenden" klicken. So findet ihr Schritt für Schritt heraus, welche Regel zu aggressiv greift.
+
+Wer die Seite trotzdem mag, kann ja immer noch spenden. Aber wenn man als normaler Nutzer vor lauter Anzeigen nicht mehr lesen kann, ist der Sinn wohl verfehlt.
