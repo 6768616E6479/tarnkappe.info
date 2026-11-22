@@ -11,7 +11,6 @@ Den Codeblock unten kopieren, im uBlock-Origin-Dashboard (Zahnrad-Symbol → Rei
 
 >[!NOTE]
 >Mit den Filterregeln werden übrigens auch Artikel ausgeblendet, die tarnkappe.info als Test kennzeichnet. Diese Regel habe ich separat angelegt wer sie nicht möchte, löscht einfach die entsprechende Zeile oder kommentiert sie mit einem vorangestellten ! aus.
-
 >Das gilt grundsätzlich für jede Regel. Falls nach dem Aktivieren einzelne Seitenteile fehlen, einfach die betroffene Zeile im Filter-Editor löschen (oder mit ! deaktivieren) und auf „Anwenden" klicken. So findet ihr Schritt für Schritt heraus, welche Regel zu aggressiv greift.
 
 **Was die einzelnen Regeln genau bewirken**
