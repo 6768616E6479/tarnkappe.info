@@ -34,7 +34,7 @@ Wer die Seite trotzdem mag, kann ja immer noch spenden. Aber wenn man als normal
 ```card
 ! Title: tarnkappe.info Filter
 ! Description: Blockiert Werbung und unerwünschte Elemente auf tarnkappe.info
-! Homepage: [https://github.com/DEIN-NAME/REPO-NAM]](https://github.com/6768616E6479/tarnkappe.info)
+! Homepage: [https://github.com/6768616E6479/tarnkappe.info)](https://github.com/6768616E6479/tarnkappe.info)
 ! Expires: 7 days
 ! Licence: MIT
 
